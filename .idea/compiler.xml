@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-provider" />
-        <module name="eureka-consume" />
         <module name="config-server" />
+        <module name="eureka-consume" />
+        <module name="eureka-provider" />
         <module name="eureka-service" />
         <module name="config" />
       </profile>

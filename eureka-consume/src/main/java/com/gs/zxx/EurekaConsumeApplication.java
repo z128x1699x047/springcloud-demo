@@ -19,4 +19,6 @@ public class EurekaConsumeApplication {
     RestTemplate restTemplate(){
         return new RestTemplate();
     }
+
+
 }
