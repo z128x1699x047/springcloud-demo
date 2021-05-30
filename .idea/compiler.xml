@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
         <module name="eureka-consume" />
+        <module name="config-server" />
         <module name="eureka-provider" />
         <module name="eureka-service" />
         <module name="config" />
+        <module name="oauth2.0-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="eureka-consume" options="-parameters" />
       <module name="eureka-provider" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="oauth2.0-server" options="-parameters" />
     </option>
   </component>
 </project>

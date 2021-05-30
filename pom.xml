@@ -13,6 +13,7 @@
     <module>eureka-provider</module>
     <module>eureka-consume</module>
     <module>config-server</module>
+      <module>oauth2.0-server</module>
   </modules>
 
   <name>springcloud-demo</name>
